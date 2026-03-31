@@ -110,3 +110,26 @@ input, textarea {
     border-radius: 10px;      
     font-family: inherit;    
 }
+
+.contact-nav a:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transform: translateY(2px);}
+
+/*botoes*/
+.contact-nav {
+    text-align: center;
+    padding: 20px;}
+
+/* botão do email*/
+.contact-nav a {
+    display: inline-block;
+    background-color:orange;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s 
+}
+
+/*LEMBRETE: PRECISO ATUALIZAR OS BOTOES E ESTILO DAS OUTRAS PGS TBM,DEIXAR TD ORGANIZADO E EM HARMONIA UMA C A OUTRA */

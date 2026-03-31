@@ -1,3 +1,12 @@
+:root {
+    --cor-primaria: #003366;   
+    --cor-destaque: #ff6600;   
+    --cor-fundo: #f0f2f5;
+    --branco: #ffffff;
+}
+
+
+
 /* Configurações Globais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,22 +78,7 @@ ul {
     padding: 0;
 }
 
-ul li {
-   
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: auto;
-}
 
-ul li a {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-}
 
 /* Rodapé/Linhas */
 hr {
@@ -99,4 +93,20 @@ a {
     border-radius: 10px;
     color:#ff6600;
      transition: all 0.3 ease-in-out;
+}
+section{
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#ff6600;
+     transition: all 0.3 ease-in-out;
+}
+
+input, textarea {
+    width: 100%;           
+    padding: 10px;           
+    margin: 10px 0;          
+    border: 1px solid var(--cinza-claro);
+    border-radius: 10px;      
+    font-family: inherit;    
 }

@@ -33,15 +33,18 @@ a {
     padding: 15px;
     margin: 0;
     text-align: auto;
-    box-shadow: 0 2px 5px 
+    box-shadow: 0 2px 5px;
+    text-decoration: none;
 }
 
 p a {
     color: #003366;
     text-decoration: none;
     font-weight: bold;
-    padding: 0 10px;
+    padding: 0 15px;
+    margin:0;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 p a:hover {
@@ -106,5 +109,6 @@ nav{
     justify-content: center;
     align-items: center;
     gap:15px;
-    color:#011636;
+    color:red;
 }
+

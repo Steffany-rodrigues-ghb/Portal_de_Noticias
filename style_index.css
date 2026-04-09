@@ -33,8 +33,11 @@ a {
     padding: 15px;
     margin: 0;
     text-align: auto;
-    box-shadow: 0 2px 5px 
+    box-shadow: 0 2px 5px;
+     text-decoration: none; 
+     
 }
+
 
 p a {
     color: #003366;
@@ -61,6 +64,9 @@ h2 {
     border-left: 6px solid #ff6600;
     padding-left: 15px;
     margin-top: 40px;
+    .contact-nav a {
+    text-decoration: none; 
+}
 }
 
 /*  Listas */
@@ -99,6 +105,7 @@ a {
     border-radius: 10px;
     color:#ff6600;
      transition: all 0.3 ease-in-out;
+     
 }
 
 nav{
